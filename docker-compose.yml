@@ -1,0 +1,43 @@
+services:
+  api:
+    build: .
+    environment:
+      DATA_ROOT: /data/knowledge
+      INDEX_ROOT: /indexes
+      JOB_DB_PATH: /jobdata/localrag_jobs.db
+      LLM_PROVIDER: ${LLM_PROVIDER:-fake}
+      LLM_MODEL: ${LLM_MODEL:-fake-v1}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      RERANKER_MODEL: ${RERANKER_MODEL:-cross-encoder/ms-marco-MiniLM-L6-v2}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+    volumes:
+      - ./demo_corpus:/data/knowledge:ro
+      - ./indexes:/indexes
+      - ./jobdata:/jobdata
+    ports: ["8000:8000"]
+    depends_on: [worker]
+  worker:
+    build: .
+    command: ["python","-m","localrag.worker"]
+    environment:
+      DATA_ROOT: /data/knowledge
+      INDEX_ROOT: /indexes
+      JOB_DB_PATH: /jobdata/localrag_jobs.db
+      LLM_PROVIDER: ${LLM_PROVIDER:-fake}
+      LLM_MODEL: ${LLM_MODEL:-fake-v1}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-sentence-transformers/all-MiniLM-L6-v2}
+      RERANKER_MODEL: ${RERANKER_MODEL:-cross-encoder/ms-marco-MiniLM-L6-v2}
+    volumes:
+      - ./demo_corpus:/data/knowledge:ro
+      - ./indexes:/indexes
+      - ./jobdata:/jobdata
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    command: ["sh","-c","npm install && npm run dev -- --hostname 0.0.0.0"]
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+    ports: ["3000:3000"]
+    depends_on: [api]

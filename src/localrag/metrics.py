@@ -1,0 +1,15 @@
+from prometheus_client import Counter, Histogram
+
+index_documents_total = Counter("localrag_index_documents_total", "Documents indexed")
+index_chunks_total = Counter("localrag_index_chunks_total", "Chunks indexed")
+search_requests_total = Counter("localrag_search_requests_total", "Search requests", ["mode"])
+query_requests_total = Counter("localrag_query_requests_total", "Query requests")
+retrieval_latency = Histogram("localrag_retrieval_latency_seconds", "Retrieval latency")
+reranking_latency = Histogram("localrag_reranking_latency_seconds", "Reranking latency")
+generation_latency = Histogram("localrag_generation_latency_seconds", "Generation latency")
+query_total_latency = Histogram("localrag_query_total_latency_seconds", "End-to-end query latency")
+citation_invalid_total = Counter("localrag_citation_invalid_total", "Invalid citations")
+refusal_total = Counter("localrag_refusal_total", "Refused queries")
+cache_hits = Counter("localrag_cache_hits_total", "Query cache hits")
+cache_misses = Counter("localrag_cache_misses_total", "Query cache misses")
+index_jobs_total = Counter("localrag_index_jobs_total", "Index jobs", ["status"])

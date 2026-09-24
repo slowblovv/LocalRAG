@@ -1,0 +1,182 @@
+[
+  {
+    "query": "Explain what does classification output?"
+  },
+  {
+    "query": "In simple terms, explain what does classification output?"
+  },
+  {
+    "query": "What does the document say about what does classification output?"
+  },
+  {
+    "query": "How is this described: what does classification output?"
+  },
+  {
+    "query": "Explain what does a held-out test set estimate?"
+  },
+  {
+    "query": "In simple terms, explain what does a held-out test set estimate?"
+  },
+  {
+    "query": "What does the document say about what does a held-out test set estimate?"
+  },
+  {
+    "query": "How is this described: what does a held-out test set estimate?"
+  },
+  {
+    "query": "Explain why are pr-auc and roc-auc different?"
+  },
+  {
+    "query": "In simple terms, explain why are pr-auc and roc-auc different?"
+  },
+  {
+    "query": "What does the document say about why are PR-AUC and ROC-AUC different?"
+  },
+  {
+    "query": "How is this described: why are pr-auc and roc-auc different?"
+  },
+  {
+    "query": "Explain what is partial failure?"
+  },
+  {
+    "query": "In simple terms, explain what is partial failure?"
+  },
+  {
+    "query": "What does the document say about what is partial failure?"
+  },
+  {
+    "query": "How is this described: what is partial failure?"
+  },
+  {
+    "query": "Explain why should retries be idempotent?"
+  },
+  {
+    "query": "In simple terms, explain why should retries be idempotent?"
+  },
+  {
+    "query": "What does the document say about why should retries be idempotent?"
+  },
+  {
+    "query": "How is this described: why should retries be idempotent?"
+  },
+  {
+    "query": "Explain what does a timeout prove?"
+  },
+  {
+    "query": "In simple terms, explain what does a timeout prove?"
+  },
+  {
+    "query": "What does the document say about what does a timeout prove?"
+  },
+  {
+    "query": "How is this described: what does a timeout prove?"
+  },
+  {
+    "query": "Explain what does a transaction provide?"
+  },
+  {
+    "query": "In simple terms, explain what does a transaction provide?"
+  },
+  {
+    "query": "What does the document say about what does a transaction provide?"
+  },
+  {
+    "query": "How is this described: what does a transaction provide?"
+  },
+  {
+    "query": "Explain what is isolation?"
+  },
+  {
+    "query": "In simple terms, explain what is isolation?"
+  },
+  {
+    "query": "What does the document say about what is isolation?"
+  },
+  {
+    "query": "How is this described: what is isolation?"
+  },
+  {
+    "query": "Explain why can indexes make writes more expensive?"
+  },
+  {
+    "query": "In simple terms, explain why can indexes make writes more expensive?"
+  },
+  {
+    "query": "What does the document say about why can indexes make writes more expensive?"
+  },
+  {
+    "query": "How is this described: why can indexes make writes more expensive?"
+  },
+  {
+    "query": "Explain what does tcp provide?"
+  },
+  {
+    "query": "In simple terms, explain what does tcp provide?"
+  },
+  {
+    "query": "What does the document say about what does TCP provide?"
+  },
+  {
+    "query": "How is this described: what does tcp provide?"
+  },
+  {
+    "query": "Explain what mechanisms recover tcp packet loss?"
+  },
+  {
+    "query": "In simple terms, explain what mechanisms recover tcp packet loss?"
+  },
+  {
+    "query": "What does the document say about what mechanisms recover TCP packet loss?"
+  },
+  {
+    "query": "How is this described: what mechanisms recover tcp packet loss?"
+  },
+  {
+    "query": "Explain why can p99 matter more than mean latency?"
+  },
+  {
+    "query": "In simple terms, explain why can p99 matter more than mean latency?"
+  },
+  {
+    "query": "What does the document say about why can p99 matter more than mean latency?"
+  },
+  {
+    "query": "How is this described: why can p99 matter more than mean latency?"
+  },
+  {
+    "query": "Explain what is authentication?"
+  },
+  {
+    "query": "In simple terms, explain what is authentication?"
+  },
+  {
+    "query": "What does the document say about what is authentication?"
+  },
+  {
+    "query": "How is this described: what is authentication?"
+  },
+  {
+    "query": "Explain what is authorization?"
+  },
+  {
+    "query": "In simple terms, explain what is authorization?"
+  },
+  {
+    "query": "What does the document say about what is authorization?"
+  },
+  {
+    "query": "How is this described: what is authorization?"
+  },
+  {
+    "query": "Explain what does threat modeling identify?"
+  },
+  {
+    "query": "In simple terms, explain what does threat modeling identify?"
+  },
+  {
+    "query": "What does the document say about what does threat modeling identify?"
+  },
+  {
+    "query": "How is this described: what does threat modeling identify?"
+  }
+]

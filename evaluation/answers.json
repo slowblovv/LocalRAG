@@ -1,0 +1,317 @@
+[
+  {
+    "query": "What does classification output?",
+    "expected_terms": [
+      "classes",
+      "probabilities"
+    ],
+    "claims": [
+      {
+        "claim": "What does classification output?",
+        "required_terms": [
+          "classification",
+          "classes",
+          "probabilities"
+        ],
+        "evidence_terms": [
+          "classes",
+          "probabilities"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What does a held-out test set estimate?",
+    "expected_terms": [
+      "generalization"
+    ],
+    "claims": [
+      {
+        "claim": "What does a held-out test set estimate?",
+        "required_terms": [
+          "held-out",
+          "generalization"
+        ],
+        "evidence_terms": [
+          "held-out test set",
+          "generalization"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Why are PR-AUC and ROC-AUC different?",
+    "expected_terms": [
+      "precision",
+      "recall",
+      "class balance"
+    ],
+    "claims": [
+      {
+        "claim": "Why are PR-AUC and ROC-AUC different?",
+        "required_terms": [
+          "precision",
+          "recall",
+          "class balance"
+        ],
+        "evidence_terms": [
+          "precision",
+          "recall",
+          "class balance"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is partial failure?",
+    "expected_terms": [
+      "component",
+      "fail"
+    ],
+    "claims": [
+      {
+        "claim": "What is partial failure?",
+        "required_terms": [
+          "component",
+          "fail"
+        ],
+        "evidence_terms": [
+          "component",
+          "fail"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Why should retries use idempotency?",
+    "expected_terms": [
+      "idempotency"
+    ],
+    "claims": [
+      {
+        "claim": "Why should retries use idempotency?",
+        "required_terms": [
+          "retries",
+          "idempotency"
+        ],
+        "evidence_terms": [
+          "retries",
+          "idempotency"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What does a timeout prove?",
+    "expected_terms": [
+      "operation",
+      "happen"
+    ],
+    "claims": [
+      {
+        "claim": "What does a timeout prove?",
+        "required_terms": [
+          "timeout",
+          "does not prove"
+        ],
+        "evidence_terms": [
+          "timeout",
+          "does not prove"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What does a transaction provide?",
+    "expected_terms": [
+      "atomic",
+      "commit"
+    ],
+    "claims": [
+      {
+        "claim": "What does a transaction provide?",
+        "required_terms": [
+          "transaction",
+          "atomic",
+          "commit"
+        ],
+        "evidence_terms": [
+          "transaction",
+          "atomic commit"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is isolation?",
+    "expected_terms": [
+      "concurrent",
+      "transactions"
+    ],
+    "claims": [
+      {
+        "claim": "What is isolation?",
+        "required_terms": [
+          "isolation",
+          "concurrent",
+          "transactions"
+        ],
+        "evidence_terms": [
+          "isolation",
+          "concurrent transactions"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Why can indexes make writes more expensive?",
+    "expected_terms": [
+      "storage",
+      "writes"
+    ],
+    "claims": [
+      {
+        "claim": "Why can indexes make writes more expensive?",
+        "required_terms": [
+          "indexes",
+          "storage",
+          "writes"
+        ],
+        "evidence_terms": [
+          "indexes",
+          "storage",
+          "writes"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What does TCP provide?",
+    "expected_terms": [
+      "reliable",
+      "ordered"
+    ],
+    "claims": [
+      {
+        "claim": "What does TCP provide?",
+        "required_terms": [
+          "TCP",
+          "reliable",
+          "ordered"
+        ],
+        "evidence_terms": [
+          "TCP",
+          "reliable, ordered"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What mechanisms recover TCP packet loss?",
+    "expected_terms": [
+      "acknowledgements",
+      "retransmission"
+    ],
+    "claims": [
+      {
+        "claim": "What mechanisms recover TCP packet loss?",
+        "required_terms": [
+          "sequence numbers",
+          "acknowledgements",
+          "retransmission"
+        ],
+        "evidence_terms": [
+          "sequence numbers",
+          "acknowledgements",
+          "retransmission"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Why can p99 matter more than mean latency?",
+    "expected_terms": [
+      "tail",
+      "latency"
+    ],
+    "claims": [
+      {
+        "claim": "Why can p99 matter more than mean latency?",
+        "required_terms": [
+          "p99",
+          "tail latency",
+          "mean"
+        ],
+        "evidence_terms": [
+          "p99",
+          "tail latency",
+          "mean"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is authentication?",
+    "expected_terms": [
+      "principal"
+    ],
+    "claims": [
+      {
+        "claim": "What is authentication?",
+        "required_terms": [
+          "authentication",
+          "principal"
+        ],
+        "evidence_terms": [
+          "authentication",
+          "principal"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What is authorization?",
+    "expected_terms": [
+      "authenticated",
+      "do"
+    ],
+    "claims": [
+      {
+        "claim": "What is authorization?",
+        "required_terms": [
+          "authorization",
+          "authenticated",
+          "may do"
+        ],
+        "evidence_terms": [
+          "authorization",
+          "authenticated principal",
+          "may do"
+        ]
+      }
+    ]
+  },
+  {
+    "query": "What does threat modeling identify?",
+    "expected_terms": [
+      "assets",
+      "trust",
+      "attack"
+    ],
+    "claims": [
+      {
+        "claim": "What does threat modeling identify?",
+        "required_terms": [
+          "assets",
+          "trust boundaries",
+          "attack surfaces"
+        ],
+        "evidence_terms": [
+          "assets",
+          "trust boundaries",
+          "attack surfaces"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1 @@
+export default function Settings(){return <main className="wrap"><h1>Settings</h1><div className="card"><pre>{`DATA_ROOT\nINDEX_ROOT\nEMBEDDING_MODEL\nVECTOR_INDEX_TYPE\nRRF_K\nRERANKER_MODEL\nLLM_PROVIDER\nLLM_MODEL\nMAX_CONTEXT_TOKENS\nTOP_K_LEXICAL\nTOP_K_VECTOR\nTOP_K_RERANK\nCACHE_TTL`}</pre></div></main>}
